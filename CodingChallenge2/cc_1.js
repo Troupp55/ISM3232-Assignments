@@ -22,7 +22,7 @@ totalCost = testTip + billAmount;
 // Output the bill amount, tip, and total cost
 console.log("The bill amount was, ", billAmount, "the tip was, $", testTip, "The total cost was, $",totalCost);
 
-//commit 4
+//Test data arrays
 const billsSet1 = [275, 40, 430];
 const billsSet2 = [125, 555, 44];
 
