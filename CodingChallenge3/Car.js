@@ -19,9 +19,11 @@ class Car{
     }
 }
 //Add accelerate method to increase speed by 10 km/h
-const car1 = new Car("Toyota", 100);
-const updatedSpeed = car1.accelerate(car1.speed);
-console.log(car1.speed);
-console.log(car1.make)
+const car1 = new Car("BMW", 120);
+car1.speed = car1.accelerate(car1.speed);
+car1.speed = car1.brake(car1.speed);
 
-const car2 =new Car()
+//testing accelerate and brake on car2
+const car2 =new Car("Mercedes", 95);
+car2.speed = car2.brake(car2.speed);
+car2.speed = car2.accelerate(car2.speed);
